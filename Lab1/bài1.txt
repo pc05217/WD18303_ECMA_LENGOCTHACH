@@ -1,0 +1,10 @@
+Bài 1: Liệt kê một vài tính năng mới của ES6 đã từng sử dụng trong môn Javascript nâng cao,
+cho ví dụ.
+- Fetch 
+- Promise
+- Object Literal
+- Arrow function
+- Template literals
+- Destructuring assignment
+- Promises 
+- Classes
