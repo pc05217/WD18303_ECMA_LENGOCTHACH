@@ -1,0 +1,171 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Giày Nike"
+    },
+    {
+      "id": 2,
+      "name": "Giày Adidas"
+    },
+    {
+      "id": 3,
+      "name": "Giày MLB"
+    },
+    {
+      "id": 4,
+      "name": "Giày Vans"
+    }
+  ],
+  "products": [
+    {
+      "id": 2,
+      "name": "Giày Nam 2018",
+      "category_id": 1,
+      "price": 500000,
+      "detail": "Áo sơ mi nam thiết kế trẻ trung và lịch lãm",
+      "image": "content/images/giay2.png"
+    },
+    {
+      "id": 3,
+      "name": "Giày Nam 2020",
+      "category_id": 3,
+      "price": 300000,
+      "detail": "Balo học sinh chất liệu bền đẹp, thiết kế thông minh",
+      "image": "content/images/giay3.png"
+    },
+    {
+      "id": 4,
+      "name": "Giày Nam 2021",
+      "category_id": 4,
+      "price": 1500000,
+      "detail": "Đồng hồ thông minh với nhiều tính năng thông minh",
+      "image": "content/images/giay4.png"
+    },
+    {
+      "id": 5,
+      "name": "Giày Nam 2022",
+      "category_id": 1,
+      "price": 200000,
+      "detail": "Chuột không dây tiện lợi và dễ sử dụng",
+      "image": "content/images/giay5.png"
+    },
+    {
+      "id": 6,
+      "name": "Giày Nam 2024",
+      "category_id": 2,
+      "price": 800000,
+      "detail": "Tai nghe Bluetooth chất lượng cao, âm thanh sống động",
+      "image": "content/images/giay9.png"
+    },
+    {
+      "id": 7,
+      "name": "Giày Nam 2024",
+      "category_id": 3,
+      "price": 800000,
+      "detail": "Tai nghe Bluetooth chất lượng cao, âm thanh sống động",
+      "image": "content/images/giay6.png"
+    },
+    {
+      "id": 8,
+      "name": "Giày Nam 2024",
+      "category_id": 3,
+      "price": 800000,
+      "detail": "Tai nghe Bluetooth chất lượng cao, âm thanh sống động",
+      "image": "content/images/giay7.png"
+    },
+    {
+      "id": 9,
+      "name": "Thạch",
+      "category_id": 3,
+      "price": "800000",
+      "detail": "Tai nghe Bluetooth chất lượng cao, âm thanh sống động",
+      "image": "content/images/giay4.png"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "customer_name": "Lê Ngọc Thạch",
+      "customer_address": "Sóc Trăng",
+      "customer_email": "lengocthacg035@gmail.com",
+      "customer_phone_number": "0972217207",
+      "created_date": "08/01/2024",
+      "status": "Đã giao"
+    },
+    {
+      "id": 2,
+      "customer_name": "Nguyễn Thị Thúy",
+      "customer_address": "Hà Nội",
+      "customer_email": "thuynguyenhn@gmail.com",
+      "customer_phone_number": "0987654321",
+      "created_date": "09/01/2024",
+      "status": "Chưa giao"
+    },
+    {
+      "id": 3,
+      "customer_name": "Trần Văn Tuấn",
+      "customer_address": "Đà Nẵng",
+      "customer_email": "tuantran@gmail.com",
+      "customer_phone_number": "0965432109",
+      "created_date": "10/01/2024",
+      "status": "Chưa giao"
+    },
+    {
+      "id": 4,
+      "customer_name": "Phạm Thị Hương",
+      "customer_address": "Hải Phòng",
+      "customer_email": "huongphamhp@gmail.com",
+      "customer_phone_number": "0912345678",
+      "created_date": "11/01/2024",
+      "status": "Đã giao"
+    },
+    {
+      "id": 5,
+      "customer_name": "Ngô Văn Thắng",
+      "customer_address": "Huế",
+      "customer_email": "thangngohue@gmail.com",
+      "customer_phone_number": "0923456789",
+      "created_date": "12/01/2024",
+      "status": "Chưa giao"
+    }
+  ],
+  "order_details": [
+    {
+      "order_id": 1,
+      "product_id": 1,
+      "quantity": 2,
+      "unit_price": 200000
+    },
+    {
+      "order_id": 2,
+      "product_id": 3,
+      "quantity": 5,
+      "unit_price": 150000
+    },
+    {
+      "order_id": 3,
+      "product_id": 2,
+      "quantity": 1,
+      "unit_price": 50000
+    },
+    {
+      "order_id": 4,
+      "product_id": 4,
+      "quantity": 3,
+      "unit_price": 100000
+    },
+    {
+      "order_id": 5,
+      "product_id": 1,
+      "quantity": 6,
+      "unit_price": 250000
+    },
+    {
+      "order_id": 6,
+      "product_id": 2,
+      "quantity": 4,
+      "unit_price": 80000
+    }
+  ]
+}
