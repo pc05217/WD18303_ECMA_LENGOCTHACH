@@ -1,0 +1,202 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Giày Nike"
+    },
+    {
+      "id": 2,
+      "name": "Giày Adidas"
+    },
+    {
+      "id": 3,
+      "name": "Giày MLB"
+    },
+    {
+      "id": 4,
+      "name": "Giày Vans"
+    }
+  ],
+  "products": [
+    {
+      "name": "Giày Nike 1",
+      "category_id": "1",
+      "price": "500000",
+      "detail": "Giày Nike 1 Bao Chính Hãng 2024",
+      "image": "content/images/Nike_1.png",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Giày Nike 2",
+      "category_id": 1,
+      "price": 300000,
+      "detail": "Giày Nike 2 Bao Chính Hãng 2024",
+      "image": "content/images/Nike_2.png"
+    },
+    {
+      "id": 3,
+      "name": "Giày Nike 3",
+      "category_id": 1,
+      "price": 1500000,
+      "detail": "Giày Nike 3 Bao Chính Hãng 2024",
+      "image": "content/images/Nike_3.png"
+    },
+    {
+      "id": 4,
+      "name": "Giày Adidas 1",
+      "category_id": 2,
+      "price": 200000,
+      "detail": "Giày Adidas 1 Bao Chính Hãng 2024",
+      "image": "content/images/adidas_1.png"
+    },
+    {
+      "id": 5,
+      "name": "Giày Adidas 2",
+      "category_id": 2,
+      "price": 800000,
+      "detail": "Giày Adidas 2 Bao Chính Hãng 2024",
+      "image": "content/images/adidas_2.png"
+    },
+    {
+      "id": 6,
+      "name": "Giày Adidas 3",
+      "category_id": 2,
+      "price": 800000,
+      "detail": "Giày Adidas 3 Bao Chính Hãng 2024",
+      "image": "content/images/adidas_3.png"
+    },
+    {
+      "id": 7,
+      "name": "Giày Vans 1",
+      "category_id": 4,
+      "price": 800000,
+      "detail": "Tai nghe Bluetooth chất lượng cao, âm thanh sống động",
+      "image": "content/images/vans1.png"
+    },
+    {
+      "id": 8,
+      "name": "Giày Vans 2",
+      "category_id": 4,
+      "price": "800000",
+      "detail": "Tai nghe Bluetooth chất lượng cao, âm thanh sống động",
+      "image": "content/images/vans2.png"
+    },
+    {
+      "id": 9,
+      "name": "Giày Vans 3",
+      "category_id": 4,
+      "price": "2000000",
+      "detail": "Giày thiết kế chuẩn form",
+      "image": "content/images/vans3.png"
+    },
+    {
+      "id": 10,
+      "name": "Giày MLB 1",
+      "category_id": 3,
+      "price": "2000000",
+      "detail": "Giày thiết kế chuẩn form 2024",
+      "image": "content/images/MLB_1.png"
+    },
+    {
+      "id": 11,
+      "name": "Giày MLB 2",
+      "category_id": 3,
+      "price": "2000000",
+      "detail": "Giày thiết kế chuẩn form 2024",
+      "image": "content/images/MLB_2.png"
+    },
+    {
+      "id": 12,
+      "name": "Giày MLB 3",
+      "category_id": 3,
+      "price": "2000000",
+      "detail": "Giày thiết kế chuẩn form 2024",
+      "image": "content/images/MLB_3.png"
+    },
+    {
+      "id": 13,
+      "name": "Giày Nike 4",
+      "category_id": 1,
+      "price": "3500000",
+      "detail": "Giày Nike Bao Chính Hãng",
+      "image": "content/images/Nike_4.png"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "customer_name": "Lê Ngọc Thạch",
+      "customer_address": "Sóc Trăng",
+      "customer_email": "lengocthacg035@gmail.com",
+      "customer_phone_number": "0972217207",
+      "created_date": "08/01/2024",
+      "status": "Đã giao"
+    },
+    {
+      "customer_name": "Nguyễn Thị Thúy",
+      "customer_email": "thuynguyenhn@gmail.com",
+      "customer_phone_number": "0987654321",
+      "customer_address": "Hà Nội",
+      "status": "Đã Giao",
+      "created_date": "09/01/2024",
+      "id": 2
+    },
+    {
+      "customer_name": "Trần Văn Tuấn",
+      "customer_email": "tranvantuan@gmail.com",
+      "customer_phone_number": "0965432109",
+      "customer_address": "Bạc Liêu",
+      "status": "Đã Giao",
+      "created_date": "10/01/2024",
+      "id": 3
+    },
+    {
+      "customer_name": "Phạm Thị Hương",
+      "customer_email": "huongphamhp@gmail.com",
+      "customer_phone_number": "0912345678",
+      "customer_address": "Hải Phòng",
+      "status": "Đã Giao",
+      "created_date": "11/11/2024",
+      "id": 4
+    }
+  ],
+  "order_details": [
+    {
+      "order_id": 1,
+      "product_id": 1,
+      "quantity": 2,
+      "unit_price": 200000
+    },
+    {
+      "order_id": 2,
+      "product_id": 3,
+      "quantity": 5,
+      "unit_price": 150000
+    },
+    {
+      "order_id": 3,
+      "product_id": 2,
+      "quantity": 1,
+      "unit_price": 50000
+    },
+    {
+      "order_id": 4,
+      "product_id": 4,
+      "quantity": 3,
+      "unit_price": 100000
+    },
+    {
+      "order_id": 5,
+      "product_id": 1,
+      "quantity": 6,
+      "unit_price": 250000
+    },
+    {
+      "order_id": 6,
+      "product_id": 2,
+      "quantity": 4,
+      "unit_price": 80000
+    }
+  ]
+}

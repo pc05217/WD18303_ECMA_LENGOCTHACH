@@ -1,0 +1,24 @@
+.detail-box{
+ display:  flex;
+ flex-direction: column;
+}
+.box-content{
+    background-color: rgb(123, 131, 138);
+    border-radius: 20px;
+}
+.btn-mua{
+    border: none;
+    width: 100%;
+    background-color: rgb(235, 238, 36);
+    border-radius: 10px;
+}
+.btn-box{
+    width: 50%;
+    height: 45px;
+}
+.btn-mua:hover{
+    color: white;
+    background-color: rgb(13, 214, 214);
+    transition: all 0.2s;
+}
+

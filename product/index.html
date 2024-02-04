@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>LNT SHOP</title>
+
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="content/css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <!-- font awesome style -->
+  <link href="content/css/font-awesome.min.css" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="content/css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="content/css/responsive.css" rel="stylesheet" />
+  <link rel="stylesheet" href="content/css/ttt.css">
+
+</head>
+
+<body onload="loadGioHang()">
+
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div>
+        <nav class="navbar navbar-expand-lg custom_nav-container" style="padding-left: 2%;">
+          <a class="navbar-brand" href="index.php?act=home">
+            <span>
+              <img width=65 src="content/images/logo.png" alt="">
+            </span>
+          </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=""> </span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  ">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Trang Chủ<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gioithieu.html">Giới Thiệu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="danhmuc.html">Danh Mục</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="giohang.html">Giỏ Hàng</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="lienhe.html">Liên Hệ</a>
+              </li>
+            </ul>
+            <div class="user_optio_box" style="margin-right:2%">
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <style>
+      .dropdown-item {
+        width: 85%;
+      }
+    </style>
+    <!-- end header section -->
+    <!-- slider section -->
+    <section class="slider_section ">
+      <div class="slider_bg_box">
+        <img style="width:100%" src="content/images/slider-bg.jpg" alt="">
+      </div>
+      <div id="customCarousel1" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-7">
+                  <div class="detail-box">
+                    <h1>
+                      Ưu đãi mùa hè
+                    </h1>
+                    <p>
+                      Chương trình ưu đãi mùa hè tại LNT SHOP. Với nhiều loại mặt hàng cho khách
+                      hàng thaoir mái lựa chọn. Cam kết chính hãng 100%
+                    <div class="btn-box">
+                      <a href="index.php?act=lienhe" class="btn1">
+                        Liên Hệ
+                      </a>
+                      <a href="index.php?act=sanpham" class="btn2">
+                        Mua Ngay
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- end slider section -->
+  </div>
+
+
+  <!-- service section -->
+
+  <section class="service_section">
+    <div class="container-fluid">
+      <div class="row" style="text-align: center;">
+      </div>
+  </section>
+
+  <!-- product section -->
+
+  <section class="product_section ">
+    <div class="container">
+      <div class="product_heading" style="justify-content: center; margin-top: 10px">
+        <h2>
+          Top Sản Phẩm Bán Chạy
+        </h2>
+      </div>
+      <div class="product_container" id="product_container">
+        <!-- <a href="">
+                    <form method="post">
+                        <figure>
+                            <div class="box">
+                                <div class="box-content">
+                                    <div class="img-box">
+                                        <img src="" alt="">
+                                    </div>
+                                    <div class="detail-box" style="text-align: center;">
+                                        <h3 style="color: red">
+                                            Giày 1
+                                        </h3>
+                                        <h5>
+                                            <span>20000000</span>
+                                        </h5>
+                                    </div>
+                                    <div class="btn-box">
+                                        <button class="btn-mua">
+                                            Mua Ngay
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </figure>
+                    </form>
+                </a> -->
+      </div>
+    </div>
+  </section>
+
+  <!-- contact section -->
+  <!-- <section class="contact_section layout_padding">
+    </section> -->
+  <!-- end contact section -->
+
+
+  <!-- client section -->
+  <!-- end client section -->
+
+
+  <!-- info section -->
+  <section class="info_section layout_padding2">
+    <div class="container">
+      <div class="info_logo">
+        <h2>
+          LNT SHOP
+        </h2>
+      </div>
+      <div class="row">
+
+        <div class="col-md-3">
+          <div class="info_contact">
+            <h5>
+              Về chúng tôi
+            </h5>
+            <div>
+              <p>
+                Địa Chỉ: Q,Ninh Kiều, TP. Cần Thơ
+              </p>
+            </div>
+            <div>
+              <p>
+                Điện Thoại: 0989.89.89.89
+              </p>
+            </div>
+            <div>
+              <p>
+                Email: LNTSHOP@gmail.com
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="info_info">
+            <h5>
+              Thông tin
+            </h5>
+            <p>
+              Website ra mắt vào năm 2016. Chuyên cung cấp các mặt hàng giày sneker chính hãng
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="info_insta">
+            <h5>
+              Instagram
+            </h5>
+            <div class="insta_container">
+              <div class="row m-0">
+                <div class="col-4 px-0">
+                  <a href="">
+                    <div class="insta-box b-1">
+                      <img src="content/images/Nike_1.png" alt="">
+                    </div>
+                  </a>
+                </div>
+                <div class="col-4 px-0">
+                  <a href="">
+                    <div class="insta-box b-1">
+                      <img src="content/images/Nike_2.png" alt="">
+                    </div>
+                  </a>
+                </div>
+                <div class="col-4 px-0">
+                  <a href="">
+                    <div class="insta-box b-1">
+                      <img src="content/images/Nike_3.png" alt="">
+                    </div>
+                  </a>
+                </div>
+                <div class="col-4 px-0">
+                  <a href="">
+                    <div class="insta-box b-1">
+                      <img src="content/images/adidas_1.png" alt="">
+                    </div>
+                  </a>
+                </div>
+                <div class="col-4 px-0">
+                  <a href="">
+                    <div class="insta-box b-1">
+                      <img src="content/images/adidas_3.png" alt="">
+                    </div>
+                  </a>
+                </div>
+                <div class="col-4 px-0">
+                  <a href="">
+                    <div class="insta-box b-1">
+                      <img src="content/images/MLB_3.png" alt="">
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="info_form ">
+            <h5>
+              Để lại thông tin
+            </h5>
+            <form action="">
+              <input type="email" placeholder="Nhập email của bạn">
+              <button>
+                Gửi
+              </button>
+            </form>
+            <div class="social_box">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end info_section -->
+
+  <!-- footer section -->
+  <!-- footer section -->
+
+  <!-- jQery -->
+
+  <!-- Google Map -->
+  <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+  <script>
+    let getID = (id) => {
+      let IDSP = sessionStorage.setItem('id', id);
+    }
+
+    const VND = new Intl.NumberFormat('vi-VN', {
+      style: 'currency',
+      currency: 'VND',
+    });
+  </script>
+  <script src="js/DanhSachSanPham.js"></script>
+  <script src="js/chitiet_sanpham.js"></script>
+
+  <!-- End Google Map -->
+
+</body>
+
+</html>

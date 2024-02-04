@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Site Metas -->
+    <link rel="icon" href="" type="image/gif" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>LNT SHOP</title>
+
+
+
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="content/css/bootstrap.css" />
+
+    <!-- fonts style -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- font awesome style -->
+    <link href="content/css/font-awesome.min.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="content/css/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="content/css/responsive.css" rel="stylesheet" />
+    <link rel="stylesheet" href="content/css/ttt.css">
+
+</head>
+<style>
+    .containerr{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        font-family: 'Jost', sans-serif;
+        background: white;
+    }
+
+    .main {
+        width: 50%;
+        height: 530px;
+        background: rgb(41, 116, 230);
+        overflow: hidden;
+        border-radius: 10px;
+        box-shadow: 5px 20px 50px #000;
+    }
+    .signup {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    label {
+        color: #fff;
+        font-size: 2.3em;
+        justify-content: center;
+        display: flex;
+        margin: 20px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: .5s ease-in-out;
+    }
+
+    input {
+        width: 60%;
+        height: 20px;
+        background: #e0dede;
+        justify-content: center;
+        display: flex;
+        margin: 20px auto;
+        padding: 10px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+    }
+
+    button {
+        width: 20%;
+        height: 40px;
+        margin: 10px auto;
+        margin-left: 0%;
+        color: #fff;
+        background: #07a72f;
+        font-size: 1em;
+        font-weight: bold;
+        margin-top: 30px;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        transition: .2s ease-in;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background: #b1e71c;
+    }
+
+    .login {
+        height: 100%;
+        background: #eee;
+        border-radius: 60% / 10%;
+        transform: translateY(-180px);
+        transition: .8s ease-in-out;
+    }
+
+    .login label {
+        color: #8a3b4c;
+        transform: scale(.6);
+    }
+
+    #btn2 {
+        background: white;
+        color: black;
+        margin-left: 30%;
+    }
+
+    #btn2:hover {
+        background-color: #b1e71c;
+        color: white;
+    }
+    .form-group{
+        width: 100%;
+        height: 10%;
+    }
+    .form-group input{
+        width: 80%;
+        height: 35px;
+    }
+</style>
+
+<body>
+    <!-- header section strats -->
+    <header class="header_section">
+        <div>
+            <nav class="navbar navbar-expand-lg custom_nav-container" style="padding-left: 2%;">
+                <a class="navbar-brand" href="index.php?act=home">
+                    <span>
+                        <img width=65 src="content/images/logo.png" alt="">
+                    </span>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class=""> </span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav  ">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Trang Chủ<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gioithieu.html">Giới Thiệu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="danhmuc.html">Danh Mục</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="giohang.html">Giỏ Hàng</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="lienhe.html">Liên Hệ</a>
+                        </li>
+                    </ul>
+                    <div class="user_optio_box" style="margin-right:2%">
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="product_section">
+        <div class="containerr">
+            <div class="main">
+                <!-- <input type="checkbox" id="chk" aria-hidden="true"> -->
+
+                <div class="signup form">
+                    <label aria-hidden="true">Thông Tin Khách Hàng</label>
+                    <div class="form-group">
+                        <input class="form-input" type="text" id="fullname" placeholder="Họ và tên">
+                        <div style="width: 100%; height: 1%; color: red; font-size: 12px; margin-left: 10%; margin-top: -2.5%; margin-bottom: -3%;"
+                            class="error_message"></div>
+                    </div>
+                    <div class="form-group">
+                        <input class="form-input" type="text" id="email" placeholder="Email">
+                        <div style="width: 100%; height: 1%; color: red; font-size: 12px; margin-left: 10%; margin-top: -2.5%; margin-bottom: -3%;"
+                            class="error_message"></div>
+                    </div>
+                    <div class="form-group">
+                        <input class="form-input" type="text" id="phone" placeholder="Số điện thoại">
+                        <div style="width: 100%; height: 1%; color: red; font-size: 12px; margin-left: 10%; margin-top: -2.5%; margin-bottom: -3%;"
+                            class="error_message"></div>
+                    </div>
+                    <div class="form-group">
+                        <input class="form-input" type="text" id="address" placeholder="Địa chỉ">
+                        <div style="width: 100%; height: 1%; color: red; font-size: 12px;  margin-left: 10%; margin-top: -2.5%; margin-bottom: -3%;"
+                            class="error_message"></div>
+                        <input type="hidden" value="Đang giao" id="status">    
+                    </div>
+                    <div class="form-group">
+                        <input class="form-input" type="date" id="datetime" placeholder="Ngày đặt hàng">
+                        <div style="width: 100%; height: 1%; color: red; font-size: 12px; margin-left: 10%; margin-top: -2.5%; margin-bottom: -3%;"
+                            class="error_message"></div>
+                    </div>
+                    <div class="form-group" id="btn_style">
+                        <a style="text-decoration: none;" href="index.html"><button id="btn2">Hủy</button></a>
+                        <button onclick="themDonHang()">Lưu</button>
+                    </div>
+
+                </div>
+
+                <!-- <div class="login">
+            <form>
+                <label for="chk" aria-hidden="true">Đăng Nhập</label>
+                <input type="email" name="email" placeholder="Email" required="">
+                <input type="password" name="pswd" placeholder="Password" required="">
+                <button>Login</button>
+            </form>
+        </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section -->
+    <!-- end contact section -->
+
+
+    <!-- client section -->
+    <!-- end client section -->
+
+
+    <!-- info section -->
+    <section class="info_section layout_padding2">
+        <div class="container">
+            <div class="info_logo">
+                <h2>
+                    LNT SHOP
+                </h2>
+            </div>
+            <div class="row">
+
+                <div class="col-md-3">
+                    <div class="info_contact">
+                        <h5>
+                            Về chúng tôi
+                        </h5>
+                        <div>
+                            <p>
+                                Địa Chỉ: Q,Ninh Kiều, TP. Cần Thơ
+                            </p>
+                        </div>
+                        <div>
+                            <p>
+                                Điện Thoại: 0989.89.89.89
+                            </p>
+                        </div>
+                        <div>
+                            <p>
+                                Email: LNTSHOP@gmail.com
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="info_info">
+                        <h5>
+                            Thông tin
+                        </h5>
+                        <p>
+                            Website ra mắt vào năm 2016. Chuyên cung cấp các mặt hàng giày sneker chính hãng
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="info_insta">
+                        <h5>
+                            Instagram
+                        </h5>
+                        <div class="insta_container">
+                            <div class="row m-0">
+                                <div class="col-4 px-0">
+                                    <a href="">
+                                        <div class="insta-box b-1">
+                                            <img src="content/images/Nike_1.png" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-4 px-0">
+                                    <a href="">
+                                        <div class="insta-box b-1">
+                                            <img src="content/images/Nike_2.png" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-4 px-0">
+                                    <a href="">
+                                        <div class="insta-box b-1">
+                                            <img src="content/images/Nike_3.png" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-4 px-0">
+                                    <a href="">
+                                        <div class="insta-box b-1">
+                                            <img src="content/images/adidas_1.png" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-4 px-0">
+                                    <a href="">
+                                        <div class="insta-box b-1">
+                                            <img src="content/images/adidas_3.png" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-4 px-0">
+                                    <a href="">
+                                        <div class="insta-box b-1">
+                                            <img src="content/images/MLB_3.png" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="info_form ">
+                        <h5>
+                            Để lại thông tin
+                        </h5>
+                        <form action="">
+                            <input type="email" placeholder="Nhập email của bạn">
+                            <button>
+                                Gửi
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end info_section -->
+
+    <!-- footer section -->
+    <!-- footer section -->
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="js/donhang.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Thay Đổi Thông Tin Đơn Hàng</title>
+    <link rel="stylesheet" type="text/css" href="slide navbar style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        font-family: 'Jost', sans-serif;
+        background: white;
+    }
+
+    .main {
+        width: 50%;
+        height: 300px;
+        background: rgb(156, 126, 238);
+        overflow: hidden;
+        border-radius: 10px;
+        box-shadow: 5px 20px 50px #000;
+    }
+
+
+    .signup {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    label {
+        color: #fff;
+        font-size: 2.3em;
+        justify-content: center;
+        display: flex;
+        margin: 20px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: .5s ease-in-out;
+    }
+
+    input {
+        width: 60%;
+        height: 20px;
+        background: #e0dede;
+        justify-content: center;
+        display: flex;
+        margin: 20px auto;
+        padding: 10px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+    }
+
+    button {
+        width: 20%;
+        height: 40px;
+        margin: 10px auto;
+        margin-left: 0%;
+        color: #fff;
+        background: #07a72f;
+        font-size: 1em;
+        font-weight: bold;
+        margin-top: 30px;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        transition: .2s ease-in;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background: #b1e71c;
+    }
+
+    .login {
+        height: 460px;
+        background: #eee;
+        border-radius: 60% / 10%;
+        transform: translateY(-180px);
+        transition: .8s ease-in-out;
+    }
+
+    .login label {
+        color: #8a3b4c;
+        transform: scale(.6);
+    }
+
+    #btn2 {
+        background: white;
+        color: black;
+        margin-left: 30%;
+    }
+
+    #btn2:hover {
+        background-color: #b1e71c;
+        color: white;
+    }
+    select{
+        width: 70%;
+        height: 50px;
+        font-size: 18px;
+        margin-top: 5%;
+        margin-bottom:5%;
+        margin-left: 15%;
+        border: none;
+        border-radius: 10px;
+    }
+    
+    
+</style>
+
+<body>
+    <div class="main">
+        <!-- <input type="checkbox" id="chk" aria-hidden="true"> -->
+
+        <div class="signup form">
+            <label aria-hidden="true">Thay Đổi Thông Tin Đơn Hàng</label>
+            <div class="form-group">
+                <input class="form-input" type="hidden" id="fullname" placeholder="Họ và tên">
+                <div style="width: 100%; height: 1%; color: red; font-size: 12px; margin-left: 10%; margin-top: -2.5%; margin-bottom: -3%;"
+                    class="error_message"></div>
+            </div>
+            <div class="form-group">
+                <input class="form-input" type="hidden" id="email" placeholder="Email">
+                <div style="width: 100%; height: 1%; color: red; font-size: 12px; margin-left: 10%; margin-top: -2.5%; margin-bottom: -3%;"
+                    class="error_message"></div>
+            </div>
+            <div class="form-group">
+                <input class="form-input" type="hidden" id="phone" placeholder="Số điện thoại">
+                <div style="width: 100%; height: 1%; color: red; font-size: 12px; margin-left: 10%; margin-top: -2.5%; margin-bottom: -3%;"
+                    class="error_message"></div>
+            </div>
+            <div class="form-group group2">
+                <input class="form-input" type="hidden" id="address" placeholder="Địa chỉ"> 
+                <select id="status">
+                    <option value="chuachon">Vui lòng chọn trạng thái giao hàng</option>
+                    <option value="Đang Giao">Đang Giao</option>
+                    <option value="Đã Giao">Đã Giao</option>
+                </select>  
+                <div style="width: 100%; height: 1%; color: red; font-size: 12px;  margin-left: 10%; margin-top: -2.5%; margin-bottom: -3%;"
+                    class="error_tn"></div>
+            </div>
+            <div class="form-group">
+                <input class="form-input" type="hidden" id="datetime" placeholder="Ngày đặt hàng">
+                <div style="width: 100%; height: 1%; color: red; font-size: 12px; margin-left: 10%; margin-top: -2.5%; margin-bottom: -3%;"
+                    class="error_message"></div>
+            </div>
+            <div class="form-group" id="btn_style">
+                <a style="text-decoration: none;" href="index.html"><button id="btn2">Hủy</button></a>
+                <button onclick="edit()">Lưu</button>
+            </div>
+
+        </div>
+
+        <!-- <div class="login">
+    <form>
+        <label for="chk" aria-hidden="true">Đăng Nhập</label>
+        <input type="email" name="email" placeholder="Email" required="">
+        <input type="password" name="pswd" placeholder="Password" required="">
+        <button>Login</button>
+    </form>
+</div> -->
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+<script src="js/edit_order.js"></script>
+
+</html>

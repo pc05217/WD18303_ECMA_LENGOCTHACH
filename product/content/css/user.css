@@ -1,0 +1,46 @@
+
+.container1{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-box {
+    margin: 20px 0px 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    flex-direction: column;
+    border: solid 1px black;
+    width: 1000px;
+    height: 650px;
+    border-radius: 10px;
+}
+.pq_ns{
+    display:flex;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 45px;
+}
+.pq_ns input{
+    display:flex;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.pq_ns div{
+    width: 100%;
+    height: 100%;
+}
+.pq_ns div label{
+    float: left;
+}
